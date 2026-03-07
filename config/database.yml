@@ -1,0 +1,19 @@
+# PostgreSQL. Configure using DATABASE_URL environment variable.
+# Example: DATABASE_URL="postgres://user:password@localhost:5432/database_name"
+#
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
+
+test:
+  <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
+
+production:
+  <<: *default
+  url: <%= ENV["DATABASE_URL"] %>
