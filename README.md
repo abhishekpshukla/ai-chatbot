@@ -94,19 +94,20 @@ DEMO_PASSWORD=your-secure-password
 ![Chat UI](docs/screenshot.png)
 -->
 
-*Screenshot placeholder — add an image of your chat interface here.*
+![Chat UI](docs/screenshot.png)
+
 
 ---
 
-## 🤝 Hire Me
+## 🤝 Contact
 
-I build production-ready web apps and integrations. If you need a similar chatbot, Rails backend, or AI feature set, let’s connect:
+Feel free to reach out:
 
-- **[Upwork](https://www.upwork.com/)** — *Replace with your Upwork profile URL*
-- **[LinkedIn](https://www.linkedin.com/)** — *Replace with your LinkedIn profile URL*
-
+- **Email:** abhishekpshukla@gmail.com
+- **GitHub:** https://github.com/abhishekpshukla
+- **LinkedIn:** https://www.linkedin.com/in/abhishekshukla/
 ---
 
 ## License
 
-MIT (or your preferred license).
+This project is licensed under the MIT License.
