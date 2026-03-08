@@ -7,7 +7,7 @@
 
 ---
 
-## ✨ Features
+## Features
 
 - **AI-powered conversations** — GPT-4o-mini for fast, cost-effective customer support replies
 - **Business-specific personas** — Each business has its own system prompt (tone, policies, FAQ)
@@ -20,7 +20,7 @@
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer        | Technology |
 |-------------|------------|
@@ -35,7 +35,7 @@
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 **Prerequisites:** Docker and Docker Compose.
 
@@ -59,7 +59,7 @@ Open **http://localhost:3000** in your browser.
 
 ---
 
-## 🧪 Tests
+## Tests
 
 Run the RSpec test suite:
 
@@ -75,7 +75,7 @@ docker compose run --rm -e RAILS_ENV=test -e DATABASE_URL=postgres://postgres:po
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Use a `.env` file in the project root (or set these in your host/deployment environment). Docker Compose loads `.env` for the web service.
 
@@ -95,7 +95,7 @@ DEMO_PASSWORD=your-secure-password
 
 ---
 
-## 💼 Use Cases
+## Use Cases
 
 - **Customer support** — Answer product and order questions 24/7 with a consistent tone and policies
 - **FAQ bots** — Train the system prompt on your docs; reduce tickets and wait times
@@ -116,7 +116,7 @@ DEMO_PASSWORD=your-secure-password
 
 ---
 
-## 🤝 Contact
+## Contact
 
 Feel free to reach out:
 
