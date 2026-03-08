@@ -3,6 +3,7 @@
 **Production-ready embeddable chatbot built with Ruby on Rails 8.1.2 + OpenAI GPT-4o-mini**
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=for-the-badge)](https://ai-chatbot-production-d6ce.up.railway.app/)
+[![CI](https://github.com/abhishekpshukla/ai-chatbot/actions/workflows/ci.yml/badge.svg)](https://github.com/abhishekpshukla/ai-chatbot/actions/workflows/ci.yml)
 
 ---
 
@@ -55,6 +56,22 @@ docker compose exec web bin/rails db:seed
 Open **http://localhost:3000** in your browser.
 
 **Required:** Set `OPENAI_API_KEY` in a `.env` file (see [Configuration](#️-configuration)) so the chat can call the OpenAI API.
+
+---
+
+## 🧪 Tests
+
+Run the RSpec test suite:
+
+```bash
+docker compose run --rm web bundle exec rspec
+```
+
+Use the test database by setting the environment:
+
+```bash
+docker compose run --rm -e RAILS_ENV=test -e DATABASE_URL=postgres://postgres:postgres@postgres:5432/ai_chatbot_test web bundle exec rspec
+```
 
 ---
 
